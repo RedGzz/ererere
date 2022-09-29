@@ -1,0 +1,123 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family:Impact;
+    text-align: justify;
+    background-color: #A9E2F3;
+}
+
+#titulo {
+    text-align: center;
+    font-family:'Cambria';
+    font-size: 60px;
+    padding: 30px;
+    background-color: #81BEF7;
+}
+
+.circulo1 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: white;
+    top:150px;
+    left: 200px;
+}
+
+.circulo2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: white;
+    top:150px;
+    right: 200px;
+}
+
+#imagenABC {
+    position: absolute;
+    z-index: 1;
+    top:150px;
+    left: 170px;
+}
+
+#imagenLibros {
+    position: absolute;
+    z-index: 1;
+    top:170px;
+    right: 215px;
+}
+
+.boton {
+    background-color: #5F04B4;
+    width: 210px;
+    height: 70px;
+    padding-top:35px;
+    border-radius: 30%;
+    box-shadow: 10px 5px 10px 2px #340461;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.informacion {
+    position: absolute;
+    top:180px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.iniciarSesion {
+   position: absolute;
+   top:400px;
+   left: 110px;
+}
+
+.registrarse {
+    position: absolute;
+    top:400px;
+    right: 110px;
+}
+
+#imagenLogo {
+    position: absolute;
+    top:325px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+#imagenMaestraSeñalando {
+    position: absolute;
+    top:450px;
+    left: 40px;
+}
+
+#imagenNiñaConUnaLampara {
+    position: absolute;
+    top:480px;
+    right: 106.5px;   
+}
+
+.boton:hover {
+    cursor:pointer;
+    width: 215px;
+    height: 71.6px;
+    transition: all 0.13s;
+} 
+
+.boton:active {
+    border: 4px solid #340461;
+    width: 215px;
+    height: 71.6px;
+}
+
+.linksPaginaPrincipal {
+    text-decoration: none;
+    color: #000;
+}
+

@@ -1,0 +1,50 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family:Impact;
+    text-align: justify;
+    background:url(../imagenesProyecto/fondoPag.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dividir {
+    background-color: #A9E2F3;
+    width: 1000px;
+    height: 800px;
+    border: 1px solid black;
+}
+
+header {
+    width:100%;
+}
+
+#titulo {
+    text-align: center;
+    font-family:'Cambria';
+    font-size: 30px;
+    padding: 15px;
+    background-color: #81BEF7;
+}
+
+.camposRegistro {
+    margin: 10px 20px;
+    display: block;
+    width: 300px;
+    height: 20px;
+    padding: 5px;
+}
+
+.camposRegistro::placeholder {
+    text-align: center;
+}
+
+.enviar {
+    width: 150px;
+    height: 30px;
+}
